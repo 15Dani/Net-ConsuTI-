@@ -1,5 +1,13 @@
 ﻿@model IEnumerable<AppEstado.Models.Estado>
 
+@{
+     ViewBag.Title = " Lista de Estados";
+}
+
+<div class="jumbotron">
+     <h1 class="text-center"> Estados </h1>
+</div>
+
 
 <table class="table">
     <tr>
@@ -21,27 +29,25 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var estado in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Nome)
+            @Html.DisplayFor(modelItem => estado.Nome)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Sexo)
+            @Html.DisplayFor(modelItem => estado.Sexo)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.UF)
+            @Html.DisplayFor(modelItem => estado.UF)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ValorMaximo)
+            @Html.DisplayFor(modelItem => estado.ValorMaximo)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ValorMinimo)
+            @Html.DisplayFor(modelItem => estado.ValorMinimo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Details", "Details", new { id=estado.ID }) |
         </td>
     </tr>
 }
