@@ -183,4 +183,3 @@ C:\Users\marac\source\repos\AppEstado.Web\AppEstado\bin\pt-br\System.Web.WebPage
 C:\Users\marac\source\repos\AppEstado.Web\AppEstado\obj\Debug\AppEstado.csproj.CopyComplete
 C:\Users\marac\source\repos\AppEstado.Web\AppEstado\obj\Debug\AppEstado.dll
 C:\Users\marac\source\repos\AppEstado.Web\AppEstado\obj\Debug\AppEstado.pdb
-C:\Users\marac\source\repos\AppEstado.Web\AppEstado\obj\Debug\AppEstado.csprojAssemblyReference.cache

@@ -12,8 +12,7 @@ using ActionResult = System.Web.Mvc.ActionResult;
 
 namespace AppEstado.Controllers
 {
-    ///[System.Web.Mvc.Route("api/[controller]")]
-    //[ApiController]
+    
     public class EstadoController : Controller
     {
       
@@ -34,26 +33,7 @@ namespace AppEstado.Controllers
 
         }
 
-        //// GET: estado/Details/5
-        //public IActionResult Details(int? id)
-        //{
-
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-           
-
-            // var estado = await _context.estado;
-            //    .FirstOrDefaultAsync(m => m.Id == id);
-            //if (estado == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //return View(estado)
-           
+  
         }
 
     }
